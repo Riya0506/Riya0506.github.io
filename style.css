@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Potta+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Potta+One&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar {
+    background-color: rgb(234, 229, 229);
+    width:434px;
+    font-family: 'Potta One', cursive;
+    height: 100vh;
+    transition:transform 0.3s ease-in;
+    position:absolute;
+   
+
+}
+
+.sidebar nav {
+    padding: 35px;
+}
+
+.sidebar nav li {
+    list-style: none;
+    font-size: 20px;
+    padding: 3px 0;
+} 
+
+.sidebar nav li a{
+    text-decoration:none;
+    color:black;
+} 
+
+.container {
+    display: flex;
+}
+
+.main {
+    
+    width: 85vw;
+    padding:20px;
+}
+
+.infoContainer {
+    
+    width: 70vw;
+    height: 40vh;
+    padding: 60px;
+    margin: 150px auto;
+    display:flex;
+    justify-content: space-around;
+    
+}
+.devPic img{
+    height:40vh;
+}
+
+.devInfo{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family:'Source Code Pro', monospace;
+    font-size: 16px;
+}
+
+.buttons{
+    margin-top:2.2em;
+    font-size:16px;
+}
+
+.hello{
+    font-size:3em;
+    
+    }
+    
+    .name{
+    font-size:25px;
+    font-family: 'Potta One', cursive;
+    }
+    
+    .about{
+    font-size:20px;
+    }
+
+    .moreabout{
+        font-size:18px;
+        margin-top: 20px;
+        font-family:'Source Code Pro', monospace;
+    }
+    
+    .btn{
+        font-size: 2em;
+        border: 1px solid black;
+        border-radius: 5px;
+        padding: 15px;
+        margin: 20px;
+        background-color: slategrey;
+    }
+
+    .btn:hover{
+        background-color: black;
+        color:white;
+    }
+
+    .contactform{
+        padding:250px; 
+        font-family:'Source Code Pro', monospace;
+        margin:50px;
+    }
+
+    .contactform form div{
+        padding:10px 0;
+        display:flex;
+        flex-direction:column;
+    }
+
+    .contactform form div input{
+        width:16vw;
+        border-radius:5px;
+        margin :6px;
+        padding:3px;
+
+    }
+
+    .contactform h1{
+        font-family: 'Potta One', cursive; 
+        text-align:center;
+    }
+   .blogcontainer{
+margin:40px 88px;
+   } 
+
+.intro{
+    margin:40px 88px;
+}   
+
+.blogcontainer h2{
+margin:20px;
+}
+
+    .blogItem{
+        margin:10px;
+        font-family:'Source Code Pro', monospace;
+    }
+
+    .blogItem p{
+        padding:10px;
+font-size:15px;
+    }
+
+    .blogItem h2{
+        font-size:20px;
+    }
+
+
+.skill{
+    width:265px;
+    height:5px;
+    background-color:purple;
+}
+.skillcontainer{
+    padding:20px;
+}
+
+.intro h1{
+    font-size: 30px;
+    padding: 30px;
+    text-align: center;
+    margin: -5px;
+}
+.intro p{
+    font-size: 18px;
+    padding: 20px;
+    margin: -11px;
+}
+.intro h2{
+    font-size: 30px;
+    padding: 20px;
+    text-align: center;
+    margin: -5px;
+}
+
+.sidebarGo{
+    transform:translate(-433px,0px);
+    position: absolute;
+    
+}
+
+.hamburger{
+    position:absolute;
+    cursor: pointer;
+    top:10px;
+    left:10px;
+}
+
+.ham{
+    margin-left:10px;
+}    
+
+.cross{
+    margin-left:235px;
+
+}
+
+@media (max-width:733px) {
+    .devPic{
+        display:none;
+
+    }
+    .intro .blogcontainer .contactform{
+margin: 50px 10px;
+    }
+    .devInfo{
+        font-size: 10px;
+    }
+    .buttons{
+        font-size: 10px;
+    }
+
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
